@@ -3,28 +3,69 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+html, body {
+    overflow-x: hidden;
+  }
+  
+
 body{
-    background-color:#141428 ;
+    background-color:#141428;
+    margin: none;
+    padding: 0px;
 }
 
 img{
-    width: 250px;
+    width: 300px;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.img-left{
+    border-radius: 0px 20px 20px 0px;
+}
+
+.img-rigth{
+    border-radius: 20px 0px 0px 20px;
+}
+
+.ted-bio{
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.589);
+    margin: 15px;
 }
 
 p{
     color: white;
 }
 
-h2, h3{
+a{
     color: white;
+    text-decoration: none;
 }
 
-h3{
+h1, h2, h3{
+    color: white;
     padding-bottom: 10px;
+    
+}
+
+header p {
+    text-align: left;
+    margin: 15px 0px;
+}
+
+.button-header{
+    background-color: #c82850;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: 10px;
 }
 
 ul{
     color: white;
+    padding-inline-start: 0;
 }
 
 hr{
@@ -48,23 +89,58 @@ hr{
 }
 
 .text-div{
-
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
 }
 
 nav{
-    background-color: grey;
+    background-color: #141428;
 
     display: flex;
     justify-content: space-between;
-    padding: 0px 30px;
+    align-items: center;
+    align-content: center;
+    padding: 10px 10px;
+}
+
+.nav-itens{
+    display: flex;
+    gap: 30px;
+}
+
+.nav-itens a{
+    font-size: .9rem;
 }
 
 nav img{
     width: 80px;
 }
 
+.button-nav{
+    background-color: #c82850;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+header{
+    background-color: #141428;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 30px;
+}
+
 .container-left{
-    background-color: grey;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -72,31 +148,34 @@ nav img{
     gap: 30px;
     padding: 30px;
     background: linear-gradient(to bottom, #3c0028, #141428);
-
 }
 
 .container-left div{
     width: 400px;
-    background-color: bisque;
-    border: 1px solid black;
+
 }
 
 
 .container-rigth{
-    background-color: grey;
+    background-color: #141428;
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
     justify-content: center;
     gap: 30px;
     padding: 30px;
+    
     background: linear-gradient(to bottom,#141428, #3c0028);
 }
 
 .container-rigth div {
-    width: 400px;
-    background-color: bisque;
-    border: 1px solid black;
+    width: 300px;
+    padding: 20px;
+}
+
+.container-left div {
+    width: 300px;
+    padding: 20px;
 }
 
 .prova-social{
@@ -109,7 +188,7 @@ nav img{
 
 .container-review{
     background: linear-gradient(to bottom, #3c0028, #141428);
-    display: inline-flex;
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
@@ -120,8 +199,10 @@ nav img{
 }
 
 .review{
-    width: 400px;
+    max-width: 400px;
     border-radius: 30px;
+
+    flex-wrap: wrap;
 
     padding: 40px;
 
@@ -132,6 +213,12 @@ nav img{
 
 .review p {
     font-size: 1rem;
+}
+
+.review-div{
+    width: 290px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .bullet-points{
@@ -221,4 +308,30 @@ form{
     font-weight: bold;
     font-size: 1rem;
     margin-top: 10px;
+}
+
+@media (max-width: 800px)
+{
+    header{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    h2{
+        text-align: center;
+    }
+
+    .container-rigth{
+        flex-direction: column;
+    }
+
+    .container-left{
+        flex-direction: column; 
+    }
+
+
+
+    
 }
