@@ -136,7 +136,7 @@ header{
     flex-direction: row-reverse;
     align-items: center;
     justify-content: center;
-    gap: 30px;
+    gap: 15%;
     padding: 30px;
 }
 
