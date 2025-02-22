@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color:#141428 ;
+}
+
+img{
+    width: 250px;
+}
+
+p{
+    color: white;
+}
+
+h2, h3{
+    color: white;
+}
+
+h3{
+    padding-bottom: 10px;
+}
+
+ul{
+    color: white;
+}
+
+hr{
+    background-color: #c82850;
+    width: 350px;
+    height: 5px;
+    margin-top: 30px;
+    border-radius: 50px;
+    border: none;
+}
+
+.img-div{
+    display: flex;
+    justify-content: center;
+}
+
+.demo{
+    width: 320px;
+    border-radius: 25px;
+    margin-bottom: 40px;
+}
+
+.text-div{
+
+}
+
+nav{
+    background-color: grey;
+
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+
+nav img{
+    width: 80px;
+}
+
+.container-left{
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 30px;
+    background: linear-gradient(to bottom, #3c0028, #141428);
+
+}
+
+.container-left div{
+    width: 400px;
+    background-color: bisque;
+    border: 1px solid black;
+}
+
+
+.container-rigth{
+    background-color: grey;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 30px;
+    background: linear-gradient(to bottom,#141428, #3c0028);
+}
+
+.container-rigth div {
+    width: 400px;
+    background-color: bisque;
+    border: 1px solid black;
+}
+
+.prova-social{
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: #3c0028;
+}
+
+.container-review{
+    background: linear-gradient(to bottom, #3c0028, #141428);
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 30px;
+    margin-bottom: 20px;
+
+}
+
+.review{
+    width: 400px;
+    border-radius: 30px;
+
+    padding: 40px;
+
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.review p {
+    font-size: 1rem;
+}
+
+.bullet-points{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: #141428;
+}
+
+.icon-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 30px;
+    background: linear-gradient(to bottom,#141428, #3c0028);
+    text-align: center;
+}
+
+.icon-img{
+    width: 400px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px;
+
+    border-radius: 30px;
+    border: 4px solid #c82850;
+
+    background-color: rgba(255, 228, 196, 0);
+}
+
+.icon{
+    width: 200px;
+    padding-bottom: 15px;
+}
+
+.contact-container{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 40px;
+    background-color: #3c0028;
+}
+
+label {
+    width: 300px;
+    display: flex;
+    text-align: left;
+    color: white;
+    padding: 8px 0px; 
+}
+
+::placeholder{
+    color: #c82850ba;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input, textarea {
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+}
+
+form{
+    margin: 20px;
+    padding: 0px;
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    justify-content: center;
+
+    background-color: #3c002800;
+}
+
+.btn-form{
+    background-color: #c82850;
+    border: none;
+    padding: 15px;
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: 10px;
+}
