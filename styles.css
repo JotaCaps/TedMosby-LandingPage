@@ -83,7 +83,7 @@ hr{
 }
 
 .demo{
-    width: 320px;
+    width: 350px;
     border-radius: 25px;
     margin-bottom: 40px;
 }
@@ -329,6 +329,10 @@ form{
 
     .container-left{
         flex-direction: column; 
+    }
+
+    .demo{
+        width: 280px;
     }
 
 
