@@ -83,7 +83,7 @@ hr{
 }
 
 .demo{
-    width: 350px;
+    width: 380px;
     border-radius: 25px;
     margin-bottom: 40px;
 }
@@ -199,7 +199,6 @@ header{
 }
 
 .review{
-    max-width: 400px;
     border-radius: 30px;
 
     flex-wrap: wrap;
@@ -216,7 +215,7 @@ header{
 }
 
 .review-div{
-    width: 290px;
+    width: 350px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -333,6 +332,12 @@ form{
 
     .demo{
         width: 280px;
+    }
+
+    .review-div{
+        width: 290px;
+        display: flex;
+        flex-wrap: wrap;
     }
 
 
