@@ -61,6 +61,7 @@ header p {
     font-weight: bold;
     font-size: 1rem;
     margin-top: 10px;
+    transition: transform 0.1s ease-in-out;
 }
 
 ul{
@@ -119,6 +120,10 @@ nav img{
     width: 80px;
 }
 
+button:hover{
+    transform: scale(1.1);
+}
+
 .button-nav{
     background-color: #c82850;
     border: none;
@@ -127,7 +132,7 @@ nav img{
     color: white;
     font-weight: bold;
     font-size: 1rem;
-    margin-top: 10px;
+    transition: transform 0.1s ease-in-out;
 }
 
 header{
@@ -311,6 +316,8 @@ form{
 
 @media (max-width: 800px)
 {
+
+
     header{
         flex-direction: column;
         justify-content: center;
